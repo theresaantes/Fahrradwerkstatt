@@ -1,0 +1,414 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: Helvetica, sans-serif;
+    font-size: 20px;
+	line-height: 1.4;
+	background-color: #eef0ed;
+}
+body {  }
+
+.Navigation {
+	margin-top: 5px;
+    gab: 30px;
+	display: flex;
+	justify-content: flex-start;
+	list-style: none;
+	background-color: rgb(115, 188, 169);
+}
+
+p {
+	color: rgb(40,84,69);
+	font-weight: 300;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(40,84,69);
+	font-weight: 300;
+	font-size: 20px;
+}
+
+h3 {
+	color: rgb(40,84,69);
+	text-align: center;
+    margin-top: 70px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.container {
+	box-sizing: border-box;
+	border: 20px solid white;
+	max-width: 1000px;
+	margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+.Navigation p{
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 38px;
+	margin-top: 38px;
+}
+
+.Navigation a{
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 38px;
+	margin-top: 38px;
+	display: flex;
+}
+.Home a{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 27px;
+	margin-bottom: 0px;
+}
+
+.Navigation a:hover{
+text-decoration: underline;
+
+}
+.a img{
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+} 
+
+.Navigation {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	width: 1000px;
+	border-left: 0px;
+	border-right: 0px;
+	padding: 0px;
+}
+h2 {
+	color: rgb(40,84,69);
+	font-size: 20px;
+	font-weight: 350;
+	background-color: white;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Navigation_Services{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 150px;
+}
+.Navigation_Services li{
+	margin-left: 35px;
+	margin-right: 35px;
+	margin-bottom: 15px;
+	background-color: white;
+}
+.Navigation_Services p{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Navigation_Services img{
+	box-shadow: 0 6px 16px rgb(151, 151, 151);
+	transition: all 250ms ease;
+	position: relative;
+}
+.Navigation_Services img:hover{
+	transform: translate(-1rem, -1rem);
+}
+
+.Einspeichen_von_Laufrädern p{
+	font-size: 19px;
+	border-bottom: 4px solid white;
+}
+
+.Navigation2{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-cotent: center;
+	list-style: none;
+	max-width: 960px;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 100px;
+}
+.Navigation2 li{
+	margin-left: 35px;
+	margin-right: 35px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	background-color: white;
+
+}
+.Navigation2 p{
+	display: flex;
+	align-items: center;
+	justify-content: center ;
+}
+.Navigation2 img{
+	box-shadow: 0 6px 16px rgb(151, 151, 151);
+	transition: all 250ms ease;
+	position: relative;
+}
+.Reservieren {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid rgb(40,84,69);
+	box-shadow: 0 6px 16px rgb(224, 224, 224);
+}
+
+.Reservieren:hover{
+	background-color: rgb(40,84,69);
+	color: white;
+}
+.Content {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	max-width: 900px;
+	height: 333px;
+	box-shadow:0 6px 16px rgb(200, 200, 200);
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 200px;
+	padding: 0px;
+}
+.Content p{
+    text-align: left;
+    margin-top: 90px;
+    margin-left: 65px;
+    margin-right: 65px;
+    max-width: 75ch;
+}
+.Content2 {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	max-width: 900px;
+	height: 333px;
+	box-shadow:0 6px 16px rgb(200, 200, 200);
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 50px;
+	padding: 0px;
+}
+.Content2 p{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 65px;
+    margin-right: 65px;
+    max-width: 75ch;
+
+}
+.Content2 a{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    }
+
+.Beschreibung {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	max-width: 760px;
+	height: auto;
+}
+.Button{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid rgb(40,84,69);
+	box-shadow: 0 6px 16px rgb(224, 224, 224);
+    display: flex;
+	list-style: none;
+	justify-content: center;
+	margin-left: 400px;
+	margin-right: 400px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.Button:hover{
+	background-color: rgb(40,84,69);
+	color: white;
+}
+
+.Box {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	max-width: 760px;
+	height: auto;
+	box-shadow:0 6px 16px rgb(200, 200, 200);
+	padding: 0px;
+	list-style: none;
+	margin-top: 100px;
+	margin-left: 120px;
+	margin-right: 120px;
+	margin-bottom: 100px;
+}
+.Box p{
+	text-align: left;
+    margin-left: 65px;
+    margin-right: 65px;
+    max-width: 75ch;
+    margin-bottom: 70px;
+}
+
+.Team {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style: none;
+	padding: 0px;
+	margin-bottom: 100px;
+	margin-top: 100px;
+
+}
+.Team li{
+	max-width: 290px;
+	margin-right: 15px;
+	margin-left: 15px;
+	box-shadow:0 6px 16px rgb(200, 200, 200);
+}
+.Team p{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 13px;
+	margin-left: 13px;
+	margin-right: 13px;
+    margin-bottom: 20px;
+}
+.Team h3{
+	margin-top: 30px;
+}
+
+.Kontakt p{
+	text-align: center;
+}
+
+.Datenschutz{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+	margin-bottom: 200px;
+	margin-top: 50px;
+}
+.Datenschutz:hover{
+text-decoration: underline;
+}
+.Datenschutz_Content {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	max-width: 900px;
+	box-shadow:0 6px 16px rgb(200, 200, 200);
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 200px;
+	padding: 0px;
+}
+.Datenschutz_Content p{
+    text-align: left;
+    margin-top: 90px;
+    margin-left: 65px;
+    margin-right: 65px;
+    font-size: 15px;
+}
+.Produktangebote {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.Produktangebote li{
+	margin-left: 35px;
+	margin-right: 35px;
+	margin-bottom: 150px;
+	background-color: white;
+}
+.Produktangebote p{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Produktangebote img{
+	box-shadow:0 6px 16px rgb(200, 200, 200);
+	transition: all 250ms ease;
+	position: relative;
+}
+.Produktangebote img:hover{
+	transform: translate(-1rem, -1rem);
+}
+
+.App-Store {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid rgb(40,84,69);
+	box-shadow: 0 6px 16px rgb(224, 224, 224);
+    display: flex;
+	list-style: none;
+	justify-content: center;
+	margin-left: 400px;
+	margin-right: 400px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.App-Store:hover{
+	background-color: rgb(40,84,69);
+	color: white;
+}
+
+.Produktbild {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 355px;
+	margin-left: 355px;
+}
+
+.Produktbeschreibung {
+     margin:50px;
+     text-align: center;
+}
+
+.Warenkorb {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid rgb(40,84,69);
+	box-shadow: 0 6px 16px rgb(224, 224, 224);
+	margin-right: 350px;
+	margin-left: 350px;
+	margin-bottom: 200px;
+	text-align: center;
+}
+
+.Warenkorb:hover{
+	background-color: rgb(40,84,69);
+	color: white;
+}
+
+.Beschreibung{
+	width: 710px;
+}
